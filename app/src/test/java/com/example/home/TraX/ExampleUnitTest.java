@@ -1,4 +1,4 @@
-package com.example.home.yandextranslateapi;
+package com.example.home.TraX;
 
 import org.junit.Test;
 

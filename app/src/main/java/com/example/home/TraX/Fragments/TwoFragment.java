@@ -1,4 +1,4 @@
-package com.example.home.yandextranslateapi.Fragments;
+package com.example.home.TraX.Fragments;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -8,10 +8,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.example.home.yandextranslateapi.R;
-import com.example.home.yandextranslateapi.model.ApiInterface;
-import com.example.home.yandextranslateapi.model.Translate;
-import com.example.home.yandextranslateapi.model.retrofit;
+import com.example.home.TraX.R;
+import com.example.home.TraX.model.ApiInterface;
+import com.example.home.TraX.model.Translate;
+import com.example.home.TraX.model.retrofit;
 
 import retrofit2.Call;
 import retrofit2.Callback;

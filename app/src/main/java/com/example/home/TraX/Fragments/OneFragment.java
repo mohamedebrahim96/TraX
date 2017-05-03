@@ -1,4 +1,4 @@
-package com.example.home.yandextranslateapi.Fragments;
+package com.example.home.TraX.Fragments;
 
 
 import android.os.Bundle;
@@ -7,7 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.home.yandextranslateapi.R;
+import com.example.home.TraX.R;
 
 /**
  * Created by Home on 2017-05-02.

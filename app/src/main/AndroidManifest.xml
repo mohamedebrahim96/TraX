@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.home.yandextranslateapi">
+    package="com.example.home.TraX">
 
     <uses-permission android:name="android.permission.INTERNET"/>
 
@@ -14,7 +14,7 @@
 
 
         <activity
-            android:name="com.example.home.yandextranslateapi.SplashScreen"
+            android:name="com.example.home.TraX.SplashScreen"
             android:screenOrientation="portrait"
             >
             <intent-filter>
@@ -26,7 +26,7 @@
 
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.home.TraX.MainActivity"
             android:theme="@style/MyMaterialTheme"
             >
         </activity>

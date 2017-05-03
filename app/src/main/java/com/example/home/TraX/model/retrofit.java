@@ -1,4 +1,4 @@
-package com.example.home.yandextranslateapi.model;
+package com.example.home.TraX.model;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;

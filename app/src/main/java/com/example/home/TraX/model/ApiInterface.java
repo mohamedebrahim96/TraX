@@ -1,6 +1,4 @@
-package com.example.home.yandextranslateapi.model;
-
-import java.util.List;
+package com.example.home.TraX.model;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

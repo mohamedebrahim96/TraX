@@ -1,4 +1,4 @@
-package com.example.home.yandextranslateapi.model;
+package com.example.home.TraX.model;
 
 import com.google.gson.annotations.SerializedName;
 

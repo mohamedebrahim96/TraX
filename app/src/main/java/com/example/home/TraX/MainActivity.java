@@ -1,6 +1,5 @@
-package com.example.home.yandextranslateapi;
+package com.example.home.TraX;
 
-import android.graphics.Color;
 import android.graphics.PorterDuff;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
@@ -11,28 +10,13 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EdgeEffect;
-import android.widget.EditText;
-import android.widget.TextView;
 
-import com.example.home.yandextranslateapi.Fragments.OneFragment;
-import com.example.home.yandextranslateapi.Fragments.ThreeFragment;
-import com.example.home.yandextranslateapi.Fragments.TwoFragment;
-import com.example.home.yandextranslateapi.model.ApiInterface;
-import com.example.home.yandextranslateapi.model.Translate;
-import com.example.home.yandextranslateapi.model.retrofit;
+import com.example.home.TraX.Fragments.OneFragment;
+import com.example.home.TraX.Fragments.ThreeFragment;
+import com.example.home.TraX.Fragments.TwoFragment;
 
-import java.io.UnsupportedEncodingException;
-import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.List;
-
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
 
 public class MainActivity extends AppCompatActivity{
 
@@ -64,6 +48,7 @@ public class MainActivity extends AppCompatActivity{
         tabLayout.getTabAt(0).setIcon(tabIcons[0]);
         tabLayout.getTabAt(1).setIcon(tabIcons[1]);
         tabLayout.getTabAt(2).setIcon(tabIcons[2]);
+
 
 
         tabLayout.setOnTabSelectedListener(
