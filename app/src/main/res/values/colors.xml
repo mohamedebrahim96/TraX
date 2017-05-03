@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#480fad</color>
+    <color name="colorPrimaryDark">#480fad</color>
+    <color name="colorAccent">#480fad</color>
+    <color name="unselected">#afafaf</color>
+
+</resources>
