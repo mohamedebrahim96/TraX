@@ -62,16 +62,6 @@ public class ThreeFragment extends Fragment{
         mHorizon = new Horizon(glSurfaceView, getResources().getColor(R.color.colorPrimary),
                 RECORDER_SAMPLE_RATE, RECORDER_CHANNELS, RECORDER_ENCODING_BIT);
         mHorizon.setMaxVolumeDb(500);
-
-        /*
-        voice.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mHorizon.setMaxVolumeDb(MAX_DECIBELS);
-                Toast.makeText(v.getContext(), "Hello", Toast.LENGTH_SHORT).show();
-            }
-        });*/
-
         voice.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
